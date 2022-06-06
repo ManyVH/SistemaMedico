@@ -12,7 +12,7 @@ export class ServicioService {
 
    valorForm:formPaciente  = {
     Nombre: '',
-    Apellido: 'hello',
+    Apellido: 'Hola',
     Sexo: '',
     Edad: 0,
     FechaRegistro: new Date(19/0/2022),
