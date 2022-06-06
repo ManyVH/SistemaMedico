@@ -1,0 +1,67 @@
+*{
+
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+.margen{
+    
+	padding-top: 5px;
+    padding-bottom:0px;
+  
+    
+    
+}
+.encabezado{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-weight: bold;
+
+}
+
+.imagen{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    padding: 5px;
+    border-style: solid;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+
+.b1{
+    margin-top: 30px;
+    height: 60px;
+    width: 170px;
+    margin-bottom: 30px;
+    border-style: groove;
+    margin-left: 18rem;
+}
+.b2{
+    height: 60px;
+    width: 170px;
+    margin-left: 18rem;
+    border-style: groove;
+}
+
+.b1:hover{
+
+    border-style: solid;
+}
+.b2:hover{
+
+    border-style: solid;
+}
+.recordatorios{
+    margin-top: 12rem;
+   
+    height: 200px;
+    width: 100%;
+    border-style: groove;
+    
+}
+
