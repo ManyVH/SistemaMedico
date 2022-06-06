@@ -1,0 +1,28 @@
+
+#nav{
+
+    background-color: white;
+box-shadow: 1px 1px 6px;
+}
+#textNavar{
+    margin: 0 auto;
+}
+#divForm{
+    border: solid 1px black;
+    border-radius: 15px;
+    padding-left: 60px;
+    padding: 20px 60px ;
+    margin-bottom: 20px;
+}
+#divForm h4{
+    margin-bottom: 20px;
+
+}
+#divForm input{
+    border: solid 1px;
+border-radius: 8px;
+
+}
+textarea{
+    border-radius: 8px;
+}

@@ -1,0 +1,31 @@
+<section class="container-xs" id="sectionG">
+
+    <nav class="navbar navbar-light w-100  " id="nav">
+        <span class="navbar-brand mb-0 h1 " id="textNavar">Paciente</span>
+    </nav>
+    <div class="container w-50 mt-4 " id="divForm">
+
+        <form action="">
+            <h4>Nombre: <input type="text" name="Nombre" [(ngModel)]="serv.valorForm.Nombre"></h4>
+            <h4>Apellido: <input type="text" name="Apellido" [(ngModel)]="serv.valorForm.Apellido"></h4>
+            <h4>Sexo: H <input type="radio" value="Hombre" name="Radio" [(ngModel)]="serv.valorForm.Sexo"> M <input value="Mujer" type="radio"
+                    name="Radio" [(ngModel)]="serv.valorForm.Sexo">
+            </h4>
+            <h4>Edad: <input type="number" name="Edad" [(ngModel)]="serv.valorForm.Edad"></h4>
+            <h4>Fecha Registro: <input type="date" name="FechaR" [(ngModel)]="serv.valorForm.FechaRegistro"></h4>
+            <h4>Fecha Nacimiento: <input type="date" name="RegistroN" [(ngModel)]="serv.valorForm.FechaNacimiento"></h4>
+            <h4>Nacionalidad: <input type="text" name="Nacionalidad" [(ngModel)]="serv.valorForm.Nacionalidad"></h4>
+            <h4>Religion: <input type="text" name="Religion" [(ngModel)]="serv.valorForm.Religion"> </h4>
+            <h4>Telefono: <input type="number" name="telefono" [(ngModel)]="serv.valorForm.Telefono"></h4>
+            <h4>Domicilio: <textarea name="Domicilio" [(ngModel)]="serv.valorForm.Domicilio"></textarea> </h4>
+            <h4>Correo: <input type="email" name="Correo" [(ngModel)]="serv.valorForm.correo"></h4>
+            <h4>Contacto de emergencia: <input type="email" name="CorreoEmergencias"
+                    [(ngModel)]="serv.valorForm.ConmtactoEmergencia"></h4>
+
+        </form>
+
+
+    </div>
+    
+    <button name="button" (click)="serv.Guardar()" > Guardar </button>
+</section>
